@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:instagramclone/bottomNav.dart';
 import 'package:instagramclone/constants.dart';
 import 'package:instagramclone/views/home.dart';
 
@@ -19,7 +20,7 @@ class _SplashScreenState extends State<SplashScreen> {
       context,
       MaterialPageRoute(
         builder: (BuildContext context) {
-          return Home();
+          return BottomNav();
         },
       ),
     );
