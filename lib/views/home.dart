@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:instagramclone/constants.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:instagramclone/models/feed.dart';
 import 'package:instagramclone/models/stories.dart';
 import 'package:instagramclone/widgets/feed_widget.dart';

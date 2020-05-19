@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_svg/svg.dart';
 import 'package:instagramclone/models/bottom_nav_model.dart';
 import 'package:instagramclone/views/account.dart';
 import 'package:instagramclone/views/add.dart';
