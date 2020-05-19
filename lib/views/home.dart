@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:instagramclone/models/feed.dart';
 import 'package:instagramclone/models/stories.dart';
+import 'package:instagramclone/views/story_view.dart';
 import 'package:instagramclone/widgets/feed_widget.dart';
 import 'package:instagramclone/widgets/stories_widget.dart';
 import 'package:instagramclone/widgets/user_Story_Widget.dart';
@@ -50,7 +51,18 @@ class Home extends StatelessWidget {
                     if (index == 0) {
                       return UserStoriesWidget();
                     } else {
-                      return StoriesWidget(stories: stories);
+                      return InkWell(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => StoryPage(
+                                  stories: stories,
+                                ),
+                              ));
+                        },
+                        child: StoriesWidget(stories: stories),
+                      );
                     }
                   },
                 ),
