@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
+const kGrey1Color = Color(0xFF9C9C9C);
+
 var kStoryStyle = GoogleFonts.lato(
   textStyle: TextStyle(
     fontSize: 13.0,
@@ -31,3 +33,10 @@ var kTimeStyle = GoogleFonts.lato(
     color: Colors.black38,
   ),
 );
+
+var kHintStyle = GoogleFonts.lato(
+    textStyle: TextStyle(
+  fontSize: 16.0,
+  fontWeight: FontWeight.w400,
+  color: kGrey1Color,
+));

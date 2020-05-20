@@ -13,6 +13,13 @@ class StoryPage extends StatefulWidget {
 
 class _StoryPageState extends State<StoryPage> {
   final storyController = StoryController();
+  String time;
+
+  @override
+  void initState() {
+    super.initState();
+    widget.stories.storiesImage.map((e) => time = e.time).toList();
+  }
 
   @override
   void dispose() {
@@ -60,7 +67,12 @@ class _StoryPageState extends State<StoryPage> {
                     Text(
                       widget.stories.username,
                       style: kTitleStyle.copyWith(color: Colors.white),
-                    )
+                    ),
+                    SizedBox(width: 10.0),
+                    Text(
+                      "$time ago",
+                      style: kTitleStyle.copyWith(color: Colors.white),
+                    ),
                   ],
                 ),
               ),

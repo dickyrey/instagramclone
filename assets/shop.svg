@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="503" height="528" viewBox="0 0 503 528">
+  <g id="shop" transform="translate(-3151 1387)">
+    <g id="Rectangle_22" data-name="Rectangle 22" transform="translate(3151 -1155)" fill="#2a2a2a" stroke="#2a2a2a" stroke-width="1">
+      <rect width="503" height="296" rx="69" stroke="none"/>
+      <rect x="0.5" y="0.5" width="502" height="295" rx="68.5" fill="none"/>
+    </g>
+    <g id="Rectangle_23" data-name="Rectangle 23" transform="translate(3151 -1277)" fill="#2a2a2a" stroke="#2a2a2a" stroke-width="1">
+      <rect width="503" height="314" rx="39" stroke="none"/>
+      <rect x="0.5" y="0.5" width="502" height="313" rx="38.5" fill="none"/>
+    </g>
+    <g id="Ellipse_7" data-name="Ellipse 7" transform="translate(3234 -1387)" fill="none" stroke="#2a2a2a" stroke-width="50">
+      <circle cx="169" cy="169" r="169" stroke="none"/>
+      <circle cx="169" cy="169" r="144" fill="none"/>
+    </g>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="25.5" cy="25.5" r="25.5" transform="translate(3241 -1218)" fill="#fff"/>
+    <circle id="Ellipse_9" data-name="Ellipse 9" cx="25.5" cy="25.5" r="25.5" transform="translate(3521 -1218)" fill="#fff"/>
+  </g>
+</svg>
